@@ -1,0 +1,30 @@
+{
+  "status": [
+    {
+      "id": 1,
+      "tipo": "Solicitado"
+    },
+    {
+      "id": 2,
+      "tipo": "Finalizado"
+    }
+  ],
+  "carros": [
+    {
+      "nome": "Higor Zica",
+      "nomeCarro": "ClioZica",
+      "placaCarro": "NXY-7777",
+      "hora": "12:00",
+      "status": "Finalizado",
+      "id": 1
+    },
+    {
+      "nome": "Margaux de Pinho",
+      "nomeCarro": "Ferrari F50",
+      "placaCarro": "XXX-7777",
+      "hora": "13:00",
+      "status": "Solicitado",
+      "id": 2
+    }
+  ]
+}

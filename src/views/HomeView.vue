@@ -1,18 +1,22 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <h1>Cadastrar Carros:</h1>
+    
   </div>
+
+  <CarroForm />
+
+
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+  
+  import CarroForm from '../components/CarroForm.vue';
 
-export default {
-  name: 'HomeView',
-  components: {
-    HelloWorld
+  export default {
+    components: {
+      CarroForm
+    }
   }
-}
+
 </script>
